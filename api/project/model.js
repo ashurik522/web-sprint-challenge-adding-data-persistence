@@ -11,7 +11,7 @@ function getAll() {
                 project_completed: p.project_completed ? true : false
             }))
         )
-        .catch(err => err)
+        .catch(err => console.log(err))
 }
 
 function getById(id) {
